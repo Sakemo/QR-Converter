@@ -1,3 +1,6 @@
+## Demo
+[Try here](https://sakemo.github.io/QR-Converter/)
+
 # Conversor para QR Codes
 
 Este é um simples conversor para QR Codes baseado em HTML, CSS e JavaScript. Ele permite que você insira dados e gere um QR Code correspondente para esses dados.
