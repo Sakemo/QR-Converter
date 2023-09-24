@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QR Codes</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    
+    <div class="cont">
+        <p>Insira para ser convertido em QR Code</p>
+        <input id="qr_data" type="text" placeholder="Dados">
+
+        <div id="qrCont">
+            <img src="" id="QR_IMG">
+        </div>
+
+        <button onclick="Generate()">
+            <img src="/images/generate.png"> Converter para QR Code</button>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
